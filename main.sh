@@ -1,4 +1,6 @@
 # !/bin/sh
+. ./functions.sh
+
 
 api_key=3f3c0c2f26e91bac4a9294bc0069a44d
 bible_books='{"genesis": "GEN", "exodus": "EXO", "leviticus": "LEV"}'
@@ -29,3 +31,5 @@ do
 done
 
 echo $passage
+
+
