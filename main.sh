@@ -1,6 +1,7 @@
 # !/bin/sh
 . ./functions.sh
 
+convert_user_input_book "This is a test"
 
 api_key=3f3c0c2f26e91bac4a9294bc0069a44d
 bible_books='{"genesis": "GEN", "exodus": "EXO", "leviticus": "LEV"}'

@@ -2,5 +2,8 @@
 
 convert_user_input_book() 
 {
-	echo "function call"
+	BOOK=$1
+	shift; shift;
+	echo "function call $BOOK"
+	comments=$@
 }
